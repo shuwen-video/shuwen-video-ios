@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3E150672D38A2C9009926ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E150662D38A2C9009926ED /* AppDelegate.m */; };
+		F3E150672D38A2C9009926ED /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3E150662D38A2C9009926ED /* AppDelegate.mm */; };
 		F3E1506A2D38A2C9009926ED /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E150692D38A2C9009926ED /* SceneDelegate.m */; };
 		F3E1506D2D38A2C9009926ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E1506C2D38A2C9009926ED /* ViewController.m */; };
 		F3E150702D38A2C9009926ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E1506E2D38A2C9009926ED /* Main.storyboard */; };
@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		F3E150622D38A2C9009926ED /* shuwen-video-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shuwen-video-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E150652D38A2C9009926ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F3E150662D38A2C9009926ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3E150662D38A2C9009926ED /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		F3E150682D38A2C9009926ED /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		F3E150692D38A2C9009926ED /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		F3E1506B2D38A2C9009926ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				F3E150652D38A2C9009926ED /* AppDelegate.h */,
-				F3E150662D38A2C9009926ED /* AppDelegate.m */,
+				F3E150662D38A2C9009926ED /* AppDelegate.mm */,
 				F3E150682D38A2C9009926ED /* SceneDelegate.h */,
 				F3E150692D38A2C9009926ED /* SceneDelegate.m */,
 				F3E1506B2D38A2C9009926ED /* ViewController.h */,
@@ -271,7 +271,7 @@
 			files = (
 				F3E1507B2D38A2CA009926ED /* main.m in Sources */,
 				F3E1506D2D38A2C9009926ED /* ViewController.m in Sources */,
-				F3E150672D38A2C9009926ED /* AppDelegate.m in Sources */,
+				F3E150672D38A2C9009926ED /* AppDelegate.mm in Sources */,
 				F3E1506A2D38A2C9009926ED /* SceneDelegate.m in Sources */,
 				F3E150732D38A2C9009926ED /* shuwen_video_ios.xcdatamodeld in Sources */,
 			);
